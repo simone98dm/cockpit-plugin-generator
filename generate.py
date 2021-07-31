@@ -12,7 +12,7 @@ def generate(name):
 
     # generate <name>.js
     script_file = "{}.js".format(name)
-    script_content = ""
+    script_content = "console.log('Hello, World!');"
 
     # generate <name>.html
     index_file = "{}.html".format(name)
